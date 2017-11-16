@@ -1,0 +1,49 @@
+
+/*Header*/
+h1 {
+  margin:10;
+  padding: 20px 5px;
+  border: 2.5px solid ;
+  border-color: black;
+  text-align: center;
+  font-size: 50px;
+  background-color: #000080 ;
+  font-family: sans-serif;
+  color: #FFFFFF; /*font colour*/
+}
+
+#instructions{
+  font-style: italic;
+  font-size: 13px;
+  color: #808080;
+}
+
+/*Lookup Button*/
+button {
+  background-color:#4169E1;
+  border-radius: 6px;
+  border-color: #4169E1;
+  font-family: serif;
+  padding: 2px;
+}
+
+
+/*Labels*/
+label{
+    font-style: italic;
+    font-size: 13px;
+    color: #808080;
+}
+
+/*Input field*/
+#country{
+    border-radius: 4px;
+    font-family: serif;
+    padding: 5px;
+}
+
+#result{
+    border-top:solid;
+    border-width: thin;
+    border-color: grey;
+}

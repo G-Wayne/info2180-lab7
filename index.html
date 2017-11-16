@@ -15,11 +15,16 @@
 
 	<body>
 		<h1>World Database Lookup</h1>
-
+        <div id = "instructions">
+          <p>Look up the ruler of a country (e.g. Jamaica)</p>
+        </div>
 		<div id="controls">
 			<label for="country">Country:</label>
 			<input id="country" type="text" name="country" value="Jamaica" />
-			<button id="lookup">Lookup</button>
+			<button id="lookup">Lookup</button><br>
+			<label for="check">All Countries:</label>
+			<input id="check" type="checkbox" name="all" value="true" />
+
 		</div>
 
 		<div id="result">
